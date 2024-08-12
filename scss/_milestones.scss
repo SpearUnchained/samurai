@@ -1,0 +1,48 @@
+.milestones {
+  h2 {
+    margin-bottom: 4rem;
+  }
+  .milestone-item {
+    margin-bottom: 2rem;
+    height: calc(100% - 2rem);
+    background-color: $orange;
+    padding: 1rem;
+    color: $white;
+    &.unique {
+      position: absolute;
+      bottom: 0;
+      right: 0.8rem;
+      height: unset;
+      width: calc(100% - 1.6rem);
+      @media screen and(max-width: 991.98px) {
+        position: unset;
+        height: calc(100% - 2rem);
+        width: 100%;
+      }
+    }
+    h4 {
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    img {
+      width: 100%;
+    }
+    ul,
+    ol {
+      margin-bottom: 0;
+    }
+    ul {
+      list-style: none;
+      li {
+        &::before {
+          content: '\f023';
+          font-family: 'Font Awesome 5 free';
+          font-weight: 900;
+          display: inline-block;
+          margin-left: -1.7rem;
+          margin-right: 0.7rem;
+        }
+      }
+    }
+  }
+}

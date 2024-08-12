@@ -1,0 +1,25 @@
+footer {
+  background-color: $wood_color;
+  padding: 3rem 0;
+  color: $white;
+  .footer-item {
+    margin-bottom: 2rem;
+    h4 {
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+      li {
+        a {
+          text-decoration: none;
+          color: $white;
+          i {
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

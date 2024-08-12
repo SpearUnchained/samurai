@@ -1,0 +1,36 @@
+.features {
+  h2 {
+    margin-bottom: 4rem;
+  }
+  .feature-item {
+    margin-bottom: 2rem;
+    .feature-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      .number {
+        position: relative;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 1rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        span {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 1.25rem;
+          font-weight: 700;
+        }
+      }
+      h5 {
+        width: calc(100% - 2.5rem);
+        margin-bottom: 0;
+        font-weight: 700;
+      }
+    }
+  }
+}
